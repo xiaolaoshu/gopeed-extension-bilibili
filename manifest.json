@@ -1,13 +1,13 @@
 {
   "name": "bilibili",
-  "author": "monkeyWie",
+  "author": "xiaolaoshu",
   "title": "哔哩哔哩",
   "description": "哔哩哔哩视频下载扩展，支持批量下载分P视频，需要配置登录cookie才能下载高质量视频，获取方法请参考主页的教程",
   "icon": "icon.png",
   "version": "1.1.3",
-  "homepage": "https://github.com/monkeyWie/gopeed-extension-bilibili",
+  "homepage": "https://github.com/xiaolaoshu/gopeed-extension-bilibili",
   "repository": {
-    "url": "https://github.com/monkeyWie/gopeed-extension-bilibili"
+    "url": "https://github.com/xiaolaoshu/gopeed-extension-bilibili"
   },
   "scripts": [
     {
@@ -20,14 +20,14 @@
     {
       "event": "onStart",
       "match": {
-        "labels": ["monkeyWie@bilibili"]
+        "labels": ["xiaolaoshu@bilibili"]
       },
       "entry": "dist/index.js"
     },
     {
       "event": "onError",
       "match": {
-        "labels": ["monkeyWie@bilibili"]
+        "labels": ["xiaolaoshu@bilibili"]
       },
       "entry": "dist/index.js"
     }
