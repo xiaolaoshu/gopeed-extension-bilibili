@@ -1,8 +1,8 @@
 {
   "name": "bilibili",
   "author": "xiaolaoshu",
-  "title": "哔哩哔哩",
-  "description": "哔哩哔哩视频下载扩展，支持批量下载分P视频，需要配置登录cookie才能下载高质量视频，获取方法请参考主页的教程",
+  "title": "测试",
+  "description": "测试",
   "icon": "icon.png",
   "version": "1.1.4",
   "homepage": "https://github.com/xiaolaoshu/gopeed-extension-bilibili",
@@ -13,7 +13,7 @@
     {
       "event": "onResolve",
       "match": {
-        "urls": ["*://*.bilibili.com/video/*"]
+        "urls": ["*://*.bilibili.com/video/*","*://b23.tv/*"]
       },
       "entry": "dist/index.js"
     },
